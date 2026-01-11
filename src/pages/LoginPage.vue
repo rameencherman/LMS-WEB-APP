@@ -75,14 +75,7 @@
               :loading="loading"
             />
 
-            <q-btn
-              outline
-              color="black"
-              label="Sign in with Google"
-              icon="img:https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg"
-              class="full-width q-py-sm rounded-borders q-mt-md"
-              no-caps
-            />
+            <!-- Google Sign In Removed -->
 
             <p class="text-center q-mt-xl text-grey-8">
               Don't have an account?
