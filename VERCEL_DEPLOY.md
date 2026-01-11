@@ -10,9 +10,9 @@ To deploy this Quasar App to Vercel, follow these steps:
 
 When importing the project in Vercel:
 
-- **Framework Preset**: Vercel might auto-detect "Other" or "Vite". If asked, you can choose **Vite** or leave as Other.
-- **Build Command**: `quasar build` (or `npm run build`)
-- **Output Directory**: `dist/spa` <-- **IMPORTANT**
+- **Framework Preset**: Select **Vite** (Vercel should auto-detect this).
+- **Build Command**: `quasar build`
+- **Output Directory**: `dist` (Default for Vite, I have configured this in `quasar.config.js`)
 - **Install Command**: `npm install` (Default)
 
 ## 3. Environment Variables
